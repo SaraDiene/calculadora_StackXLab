@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+}
+.container{
+    position: absolute;
+    background-color: rgba(17, 13, 13, 0.8);
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px;
+    background-color: rgb(31, 29, 29);
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(77, 76, 76) ;
+}
+
+.botao:hover{
+    background-color: rgb(131, 129, 129);
+    box-shadow:  rgb(131, 129, 129);;
+}
+
+.num{
+     background-color: rgb(12, 11, 11);
+
+}
+
+#input{
+    width: 222px;
+    background-color: white;
+    margin: 5px;
+    font-size: 1.6em;
+    color: black;
+    font-weight: 400;
+    text-align: right;
+    padding: 5px;
+    min-height: 1.6em;
+}
+
+#preview{
+    color: #777;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+
+
+#historico{
+    background: rgb(137,139,139);
+    background: radial-gradient(circle, rgba(137,139,139,1) 0%, rgba(246,29,29,1) 100%);
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   width: 300px;
+   height: 380px;
+   border-radius: 20px;
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+
+.historico-item{
+    padding: 15px;
+    color: rgb(252, 252, 252);
+    font-weight: 400;
+    list-style-type: square;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-align: center;
+}
+
